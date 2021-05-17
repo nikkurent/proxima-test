@@ -1,0 +1,27 @@
+<div class="container">
+    <i class="fas fa-chevron-left back__icon" [routerLink]="['/users']"></i>
+
+    <div class="avatar">
+        <img src="{{user.avatar}}" alt="avatar">
+    </div>
+    <table class="table">
+        <tbody>
+          <tr>
+            <th class="bold" scope="row">Id</th>
+            <td>{{user.id}}</td>
+          </tr>
+          <tr>
+            <th class="bold" scope="row">{{ 'HOME.FIRSTNAME' | translate }}</th>
+            <td>{{user.first_name}}</td>
+          </tr>
+          <tr>
+            <th class="bold" scope="row">{{ 'HOME.LASTNAME' | translate }}</th>
+            <td>{{user.last_name}}</td>
+          </tr>
+          <tr>
+            <th class="bold" scope="row">Email</th>
+            <td>{{user.email}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

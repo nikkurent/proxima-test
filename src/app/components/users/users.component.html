@@ -1,0 +1,25 @@
+<div class="container">
+  <i class="fas fa-user-alt logout-btn" (click)="logout()"></i>
+
+    <div class="users">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="bold" scope="col">#</th>
+              <th class="bold" scope="col">{{ 'HOME.FIRSTNAME' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="user" *ngFor="let user of users" (click)="UserDetailView(user.id)">
+              <th scope="row">{{user.id}}</th>
+              <td>{{user.first_name}}</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <div class="pagination">
+        <i class="fas fa-chevron-left" (click)="previousPage()" [ngClass]="{'disabled': currentPage == 1}"></i>
+        <i class="fas fa-chevron-right" (click)="nextPage()" [ngClass]="{'disabled': currentPage == totalPages}"></i>
+    </div>
+</div>

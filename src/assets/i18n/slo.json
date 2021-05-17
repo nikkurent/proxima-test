@@ -1,0 +1,11 @@
+{
+    "HOME": {
+        "FIRSTNAME": "Ime",
+        "LASTNAME": "Priimek",
+        "LOGIN": "Prijava",
+        "PASSWORD": "Geslo",
+        "NOACCOUNT": "Nimate računa?",
+        "SIGNUP": "Ustvari Račun",
+        "HAVEACCOUNT": "Že imate račun?"
+    }
+}

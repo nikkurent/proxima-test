@@ -1,0 +1,48 @@
+.users {
+    height: 80%;
+    padding: 30px
+}
+
+.user{
+    cursor: pointer;
+}
+
+.user:hover{
+    background-color: rgb(241, 239, 239);
+}
+
+.pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+}
+
+.pagination i {
+    color: rgb(180, 180, 180);
+    font-size: 22px;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+.pagination i:hover {
+    color: rgb(110, 110, 110);
+}
+
+.pagination i.disabled {
+    cursor: default;
+    color: rgb(218, 216, 216);
+    pointer-events: none;
+}
+
+.logout-btn{
+    position: relative;
+    top: 10px;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    color: rgb(110, 110, 110);
+}

@@ -1,0 +1,11 @@
+{
+    "HOME": {
+        "FIRSTNAME": "First Name",
+        "LASTNAME": "Last Name",
+        "LOGIN": "Login",
+        "PASSWORD": "Password",
+        "NOACCOUNT": "Don't have an account?",
+        "SIGNUP": "Sign up",
+        "HAVEACCOUNT": "Already have an account?"
+    }
+}

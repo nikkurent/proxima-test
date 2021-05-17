@@ -1,0 +1,19 @@
+<div class="container">
+    <form #form="ngForm" class="text-center border border-light p-5" (ngSubmit)="onSubmit(form)">
+        
+        <p class="h4 mb-4">{{ 'HOME.LOGIN' | translate }}</p>
+    
+        <!-- E-mail -->
+        <input  name="email"
+        ngModel type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+    
+        <!-- Password -->
+        <input name="password"
+        ngModel type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="{{'HOME.PASSWORD' | translate }}" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+
+        <button class="button" type="submit">{{ 'HOME.LOGIN' | translate }}</button>
+
+        <a routerLink="/register" >{{'HOME.NOACCOUNT' | translate }}</a>
+    </form>
+</div>
+
