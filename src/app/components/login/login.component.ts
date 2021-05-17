@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
      * Login user
     */
     this.webRequest.post(`login`, {"email": form.value.email, "password": form.value.password}).subscribe((token: any) => {
-      localStorage.setItem('token', token);
+      localStorage.setItem('token', token.token);
       this.router.navigateByUrl('/users');
     })
   }
