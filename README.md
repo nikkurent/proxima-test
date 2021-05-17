@@ -1,6 +1,6 @@
 # ProximaTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+Run `npm install` to Install the npm packages described in the package.json.
 
 ## Development server
 
